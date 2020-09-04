@@ -27,9 +27,9 @@ Open http://localhost:3000 to view it in the browser.
 Component hierarchy of app:
 
 App.js
-   |---Players.js
-          |---Legend.js
-          |---PlayerDisplay.js
+---Players.js
+------Legend.js
+------PlayerDisplay.js
 
 
 
