@@ -1,4 +1,4 @@
-#chess-player-rank
+# chess-player-rank
 ![](https://github.com/AaronStearns/chessPlayerRank/blob/master/playerDisplay.png)
 
 A UI to display the rank history of a given chess player. The player's rank can be upgraded using the promote button.
