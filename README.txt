@@ -1,3 +1,8 @@
+# chess-player-rank
+![](https://github.com/AaronStearns/chessPlayerRank/blob/master/playerDisplay.png)
+
+A UI to display the rank history of a given chess player. The player's rank can be upgraded using the promote button.
+
 To Run:
 
 First, install React.js if not already installed: 
@@ -8,7 +13,9 @@ In the project directory, first run:
 
 `npm install`
 
-to install the node modules. Then:
+to install the node modules. 
+
+Then:
 
 `yarn start`
 
@@ -20,15 +27,9 @@ Open http://localhost:3000 to view it in the browser.
 Component hierarchy of app:
 
 App.js
----Soldiers.js
-------Legend.js
-------SoldierDisplay.js
+   |---Players.js
+          |---Legend.js
+          |---PlayerDisplay.js
 
-With a working back-end, all data for soldiers to be displayed in the UI would be 
-fetched with a GET request in the Soldiers.js component, then passed to Legend.js and 
-SoldierDisplay.js
-
-For now, data for an array of soldiers is hard-coded in the Soldiers.js state 
-and passed to its child components. 
 
 
