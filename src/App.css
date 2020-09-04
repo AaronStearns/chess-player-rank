@@ -1,38 +1,143 @@
-.App {
+/* ------------------------------ */
+
+.PlayerDiv {
+  display: inline-block;  
+  width: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.PlayerDiv div {
+  display: inline-block;
+}
+
+/* ------------------------------ */
+
+#year2 {  
+  transform: rotate(72deg);
+    font-size: 16px;                 
+}
+
+#year3 {
+  transform: rotate(316deg);
+    font-size: 16px;   
+}
+
+#year4 {
+  transform: rotate(40deg);
+    font-size: 16px;   
+}
+
+#year5 {
+  transform: rotate(-68deg);
+    font-size: 16px;   
+}
+
+/* ------------------------------ */
+
+.RankLegendDiv {
+  float: left;
+  border-radius: 5px;
+  width: 10%;
+}
+
+.RankLegendDiv h4 {
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.RankLegendDiv ul {  
+  padding: 0px;
+}
+
+.RankLegendDiv ul li {  
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.RankLegendDiv ul li span {  
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.RankLegendDiv ul li p {  
+  padding-top: 7px;
+  color: gray;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+/* ------------------------------ */
+
+.PlayerDiv {
+  display: inline-block;
+  width: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.PlayerDiv div {
+  display: inline-block;
+}
+
+.PlayerDiv h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------------------------------ */
+
+.PromotePlayerDiv {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 35%; 
+  height: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.PromotePlayerDiv select{
+  margin-left: 5px;
+  font-size: 16px;
+  width: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.PromotePlayerDiv button {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(204, 236, 156);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(97, 97, 97, 0.75);
+  width: 100%;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.PromotePlayerDiv button:hover {
+  background-color: rgb(148, 207, 60);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ------------------------------ */
+
+.MainAppDiv svg{
+  margin-left: 30px;
+}
+
+#MainSVG {
+  width: 550px;
+  height: 530px;
+}
+
+#MainSVG image {
+  width: 550px;
+  height: 550px;
+}
+
+#PlayersDisplay h1 {
+  margin-top: 30px;
+  text-align: center;
 }
