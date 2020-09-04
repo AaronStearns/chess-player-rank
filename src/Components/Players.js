@@ -29,7 +29,7 @@ class Players extends React.Component {
         playerData: [
         {
           id: 1,
-          title: 'SSG Smith',
+          title: 'Player1',
           image: Player,
           playerRankHistory: [
             {
